@@ -1,0 +1,24 @@
+# ── Web framework ──────────────────────────────────────────────
+flask==3.0.3
+flask-cors==4.0.1
+werkzeug==3.0.3
+gunicorn==22.0.0
+
+# ── Deep learning ──────────────────────────────────────────────
+# CPU-only (no GPU on local machine):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+# CUDA 12.1:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+torch>=2.2.0
+torchvision>=0.17.0
+
+# ── Segmentation model ─────────────────────────────────────────
+segmentation-models-pytorch>=0.3.0
+
+# ── Image processing ───────────────────────────────────────────
+Pillow==10.4.0
+numpy==1.26.4
+albumentations==1.4.10
+
+# ── Utilities ──────────────────────────────────────────────────
+python-dotenv==1.0.1
